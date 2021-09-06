@@ -12,3 +12,14 @@ body {
     background-position: center center;
     margin: 0;
 }
+
+aside  {
+    height: 100vh;
+    background-color: #000;
+    width: 200px;
+    height: 100vh;
+}
+
+aside a {
+    color: white;
+}
