@@ -18,8 +18,16 @@ aside  {
     background-color: #000;
     width: 200px;
     height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+aside ul {
+    padding: 0;
+    list-style-type:none;
+}
 aside a {
     color: white;
+    text-decoration: none;
+    margin:1rem;
+
 }
