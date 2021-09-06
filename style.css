@@ -5,6 +5,10 @@
 }
 
 body {
+    background-image: url('images/bg.png');
     font-family: "Roboto", sans-serif;
+    background-size: cover;
+    min-height: 110vh;
+    background-position: center center;
     margin: 0;
 }
