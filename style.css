@@ -6,29 +6,33 @@
 
 body {
     background-image: url('images/bg.png');
-    font-family: "Roboto", sans-serif;
+    font-family: "Prata", sans-serif;
     background-size: cover;
     min-height: 110vh;
+    display:flex;
     background-position: center center;
     margin: 0;
 }
 
 aside  {
     background-color: #000;
-    width: 200px;
+    width: 300px;
     height: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 2rem;
 }
+
 aside ul {
     padding: 0;
     list-style-type:none;
 }
+
 aside a {
     color: white;
     text-decoration: none;
-    margin:1rem;
+    margin:0.5rem;
     font-size: 2rem;
     display: inline-block;
 }
@@ -39,4 +43,13 @@ aside a {
     display: block;
     padding: 1rem;
     text-align: center;
+}
+
+main {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+main h1 {
+    margin: 0;
 }
