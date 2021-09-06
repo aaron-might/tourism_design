@@ -30,5 +30,13 @@ aside a {
     text-decoration: none;
     margin:1rem;
     font-size: 2rem;
+    display: inline-block;
+}
 
+.special {
+    background-color: #feab51;
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-align: center;
 }
